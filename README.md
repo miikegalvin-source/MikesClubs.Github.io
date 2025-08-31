@@ -1,3 +1,4 @@
+
 # Golf Club Storefront
 
 A static website storefront for showcasing golf clubs and bundles.  
@@ -7,6 +8,10 @@ Built to be simple, mobile-friendly, and fast to host on **GitHub Pages**.
 
 ## 🌐 Live Site
 Once published with GitHub Pages, your storefront will be available here:  
+https://Miikegalvin-source.github.io/MikesClubs.github.io/
+
+yaml
+Copy code
 
 ---
 
@@ -22,7 +27,13 @@ Once published with GitHub Pages, your storefront will be available here:
 ├── data/
 │ ├── products.json # Product catalog
 │ └── bundles.json # Bundle definitions
-└── README.md
+└── README.md # This file
+
+yaml
+Copy code
+
+---
+
 ## 🚀 Deployment on GitHub Pages
 1. Create a **public repository** on GitHub named:  
 MikesClubs.github.io
@@ -36,4 +47,4 @@ git add .
 git commit -m "Initial storefront publish"
 git branch -M main
 git remote add origin https://github.com/Miikegalvin-source/MikesClubs.github.io.git
-git push -u origin main # This file
+git push -u origin main
